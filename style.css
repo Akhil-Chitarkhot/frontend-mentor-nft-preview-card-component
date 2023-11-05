@@ -1,0 +1,112 @@
+
+.container {
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    height: 600px;
+    width: 345px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.main-pic {
+    height: 301px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 22px;
+    margin-bottom: 0;
+}
+
+.heading {
+    color: #FFF;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 27px;
+    margin-left: 22px;
+}
+
+.info{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: inherit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 23px;
+    margin-left: 22px; 
+    width: 287px;
+}
+
+.cryp {
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-family: inherit;
+    margin-top: 27px;
+    margin-left: 22px;
+    margin-right: 14px;
+    margin-bottom: 23px;
+}
+
+.dis {
+    display: flex;
+}
+
+.txt {
+    margin-top: 0;
+    margin-left: 6px;
+}
+
+.eth {
+    color: rgba(0, 255, 246, 1);
+}
+
+.date {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: inherit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+hr {
+    width: 298px;
+    color: hsl(215, 32%, 27%);
+}
+
+.creator {
+    display: flex;
+    font-family: inherit;
+    margin-top: 15px;
+    margin-left: 22px;
+    align-items: center;
+}
+
+.creator-pic {
+    height: 36px;
+    width: 36px;
+}
+
+.cr {
+    margin-left: 12px;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.jules-wyvern {
+    color: white;
+}
+
+.act:hover {
+    color: rgba(0, 255, 246, 1);
+    cursor: pointer;
+}
